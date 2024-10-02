@@ -1,0 +1,21 @@
+@charset "UTF-8";
+
+@media (max-width: 800px) {
+    .img-form{
+        display: none;
+    }
+    
+}
+
+@media (max-width: 400px) {
+    footer {
+        display: flex;
+        flex-direction: column;
+        font-size: 11px;
+    }
+
+    footer > img{
+        padding: 0 0 10px;
+        width: 110px;
+    }
+}
