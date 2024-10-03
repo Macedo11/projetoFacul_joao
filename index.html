@@ -9,7 +9,24 @@
     <link rel="stylesheet" href="./css/mq.css">
 </head>
 <body>
-    <section class="antes-depois">
+    <section class="container-cep"> <!-- CALULAR CEP -->
+        <p>
+            Confira se estamos atendendo na sua região
+        </p>
+        <div class="div-cep">
+            <p>Descubra também o que seus vizinhos falam sobre os serviços de limpeza do E.F MY CLEANING</p>
+            <div class="calc-cep">
+                <fieldset>
+                    <legend>Informe seu CEP</legend>
+                    <label for="cep"></label>
+                    <input type="number" name="cep" id="cep" placeholder="00000-000">
+                </fieldset>
+                <input type="button" value="Buscar" class="btn-cep">
+            </div>
+        </div>
+    </section>
+
+    <section class="antes-depois"> <!-- ANTES E DEPOIS -->
         <p>Antes e Depois</p>
         <div>
             <img src="./image/antes e depois/colchao.png" alt="Colchão antes e depois">
@@ -18,7 +35,7 @@
         </div>
     </section>
 
-    <section class="form-container"> <!-- Formulário -->
+    <section class="form-container"> <!-- FORMULÁRIO -->
         <div class="img-form">
             <img src="./image/sofa-aspirador.png" alt="">
         </div>
@@ -48,7 +65,7 @@
         </div>
     </section>
 
-    <footer> <!-- Rodapé --> 
+    <footer> <!-- RODAPÉ --> 
             <img src="./image/logo-png.png" alt="Logo EF"> <!-- Adiciona a logo sem fundo -->
             <i>© 2024 E.F MY CLEANING. all rights reserved</i> <!-- Direitos autorais -->
     </footer>
