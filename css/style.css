@@ -4,7 +4,8 @@
 
 :root {
     --yellow: #FBE80E; /* Adiciona uma variável (nome) para a cor */
-    --green: #55AA00; 
+    --green: #55AA00;
+    --light-green: #72D60F;
 }
 
 * {
@@ -13,9 +14,33 @@
     font-family: "Inter", sans-serif;
 }
 
+/* ANTES E DEPOIS */
+.antes-depois {
+    margin: 70px;
+}
+
+.antes-depois > p {
+    color: var(--light-green);
+    font-size: 20px;
+    font-weight: 700;
+    padding: 0 90px 30px;
+}
+
+.antes-depois > div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.antes-depois > div > img{
+    max-width: 450px;
+    padding: 10px;
+}
+
+
 /* FORMULÁRIO */
 .img-form{
-    max-width: 483px;
+    max-width: 481px;
 }
 
 .img-form > img{
@@ -23,7 +48,7 @@
 }
 
 .form-container {
-    width: 100%; /* Tamanho horizontal */
+    max-width: 100%; /* Tamanho horizontal */
     height: 590px; /* Tamanho vertizal */
     display: flex;
     align-items: center;

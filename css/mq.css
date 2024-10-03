@@ -1,10 +1,13 @@
 @charset "UTF-8";
 
-@media (max-width: 800px) {
+@media (max-width: 830px) {
     .img-form{
         display: none;
     }
     
+    .antes-depois > p {
+        padding: 0 0 30px;
+    }
 }
 
 @media (max-width: 550px) {
@@ -17,5 +20,9 @@
     footer > img{
         padding: 0 0 10px;
         width: 110px;
+    }
+
+    .antes-depois > div > img {
+        max-width: 280px;
     }
 }
