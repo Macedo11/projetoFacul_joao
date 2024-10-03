@@ -7,15 +7,15 @@
     --green: #55AA00; 
 }
 
-
 * {
     padding: 0; /* Deixa o código inteiro com espaçamento de 0px */
     margin: 0; /* Deixa o código inteiro com margem de 0px */
     font-family: "Inter", sans-serif;
 }
 
+/* FORMULÁRIO */
 .img-form{
-    max-width: 434px;
+    max-width: 483px;
 }
 
 .img-form > img{
@@ -24,7 +24,7 @@
 
 .form-container {
     width: 100%; /* Tamanho horizontal */
-    height: 530px; /* Tamanho vertizal */
+    height: 590px; /* Tamanho vertizal */
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -43,8 +43,8 @@
 form {
     background-color: white;
     box-shadow: 2px 1px 5px rgba(0, 0, 0, 0.24);
-    width: 250px;
-    height: 350px;
+    width: 270px;
+    height: 370px;
     border-radius: 15px;
     padding: 15px;
     
@@ -56,7 +56,6 @@ form {
 form > p {
     font-weight: 800;
 }
-
 
 fieldset {
     font-size: 11px;
@@ -70,7 +69,7 @@ fieldset {
 
 input {
     font-size: 10px;
-    width: 180px;
+    width: 200px;
     border: 0;
     padding: 10px;
 }
@@ -83,6 +82,7 @@ input {
     background-color: var(--green);
     color: white;
     padding: 5px;
+    margin-top: 20px;
     width: 150px;
     border-radius: 5px;
 }
@@ -93,7 +93,7 @@ input {
 
 
 
-/* FOOTER */
+/* RODAPÉ */
 footer { 
     font-family: "Inter", sans-serif; /* Estilo da Fonte */
     font-size: 13px; /* Define o tamanho da fonte */
