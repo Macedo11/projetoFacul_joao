@@ -17,6 +17,29 @@
 }
 
 @media (max-width: 550px) {
+    /* CALCULAR CEP */
+    .container-cep > .div-cep {
+        width: 270px;
+        height: 100px;
+    }
+
+    .container-cep > p {
+        font-size: 14px;
+    }
+
+    .div-cep > p {
+        font-size: 12px;
+        padding: 0;
+    }
+
+    .calc-cep > fieldset {
+        width: 20%;
+        margin: 5px;
+    }
+
+    .calc-cep > fieldset > input {
+        width: 140px;
+    }
 
     /* RODAPÉ */
     footer {
