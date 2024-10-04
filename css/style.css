@@ -6,6 +6,7 @@
     --yellow: #FBE80E; /* Adiciona uma variável (nome) para a cor */
     --green: #55AA00;
     --light-green: #72D60F;
+    --mostarda: #D3C203;
 }
 
 * {
@@ -14,6 +15,35 @@
     font-family: "Inter", sans-serif;
 }
 
+h2 {
+    color: var(--mostarda);
+    font-weight: 600;
+}
+
+/* CUIDADOS */
+.cuidados {
+    background-color: #FFFDE1;
+    padding: 30px;
+    text-align: center;
+    border-radius: 25px;;
+}
+
+.div-cuidados {
+    display: flex;
+    padding: 50px;
+}
+
+.img-cuidados {
+    width: 500px;
+}
+
+.txt-modelo > a{
+    font-weight: bolder;
+}
+
+.txt-modelo > p {
+    padding: 40px 30px;
+}
 /* CALCULAR CEP */
 .container-cep {
     background-color: #D2FFA6;
