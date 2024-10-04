@@ -23,26 +23,32 @@ h2 {
 /* CUIDADOS */
 .cuidados {
     background-color: #FFFDE1;
-    padding: 30px;
+    padding: 20px;
     text-align: center;
     border-radius: 25px;;
 }
 
 .div-cuidados {
     display: flex;
-    padding: 50px;
+    align-items: center;
+    padding: 100px 20px;
 }
 
 .img-cuidados {
     width: 500px;
 }
 
-.txt-modelo > a{
-    font-weight: bolder;
+/* CUIDADOS > MODELO */
+
+.txt-modelo > p, .txt-limpeza > p, .txt-pq-limpar > p{
+    padding: 10px 25px;
+    line-height: 20px;
 }
 
-.txt-modelo > p {
-    padding: 40px 30px;
+/* CUIDADOS > LIMPEZA */
+
+.txt-limpeza > p {
+    text-align: left;
 }
 /* CALCULAR CEP */
 .container-cep {
