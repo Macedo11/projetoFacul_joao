@@ -38,7 +38,7 @@ h2 {
     width: 500px;
 }
 
-.txt-modelo > p, .txt-limpeza > p, .txt-pq-limpar > p{
+.p-cuidados{
     padding: 10px 25px;
     line-height: 20px;
 }
@@ -46,6 +46,7 @@ h2 {
 .txt-limpeza > p, .txt-pq-limpar > p {
     text-align: left;
 }
+
 /* CALCULAR CEP */
 .container-cep {
     background-color: #D2FFA6;

@@ -1,5 +1,15 @@
 @charset "UTF-8";
 
+@media (max-width: 1000px) {
+    .cuidados {
+        padding: 30px 10px;
+    }
+    
+    .img-cuidados {
+        width: 350px;
+    }
+}
+
 @media (max-width: 840px) {
     /* ANTES E DEPOIS */
     .antes-depois > p {
@@ -16,7 +26,21 @@
     }
 }
 
+@media (max-width: 800px) {
+    .div-cuidados {
+        padding: 45px 5px 10px;
+    }
+
+    .img-cuidados {
+        display: none;
+    }
+}
+
 @media (max-width: 550px) {
+    .p-cuidados{
+        padding: 0;
+    }
+
     /* CALCULAR CEP */
     .container-cep > .div-cep {
         width: 270px;
