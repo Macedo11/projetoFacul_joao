@@ -96,6 +96,7 @@ h2 {
     background-color: var(--light-green);
     color: white;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.418);
+    font-size: 12px;
     font-weight: bolder;
     border-radius: 10px;
     margin-top: 5px;
@@ -105,6 +106,7 @@ h2 {
 
 .btn-cep:hover {
     background-color: var(--green);
+    cursor: pointer;
 }
 
 /* ANTES E DEPOIS */
@@ -200,6 +202,7 @@ input {
     background-color: var(--light-green);
     color: white;
     text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.418);
+    font-size: 13px;
     padding: 5px;
     margin-top: 20px;
     width: 150px;
@@ -209,6 +212,7 @@ input {
 
 #form-btn:hover {
     background-color: var(--green);
+    cursor: pointer;
 }
 
 
