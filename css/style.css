@@ -15,7 +15,7 @@
     font-family: "Inter", sans-serif;
 }
 
-h2 {
+h1, h2 {
     color: var(--mostarda);
     font-weight: 600;
 }
@@ -25,7 +25,7 @@ h2 {
     background-color: #FFFDE1;
     padding: 40px;
     text-align: center;
-    border-radius: 25px;;
+    border-radius: 25px;
 }
 
 .div-cuidados {
@@ -195,7 +195,10 @@ input {
 }
 
 #msg {
-    padding-bottom: 100px;    
+    padding-bottom: 100px;
+    border: solid 0;
+    width: 220px;
+    font-size: 10px;
 }
 
 #form-btn {
