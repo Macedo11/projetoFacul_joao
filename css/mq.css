@@ -2,78 +2,78 @@
 
 @media (max-width: 1000px) {
     .cuidados {
-        padding: 30px 10px;
+        padding: 30px 10px; /* espaçamento */
     }
     
     .img-cuidados {
-        width: 350px;
+        width: 350px; /* tamanho do elemento */
     }
 }
 
 @media (max-width: 840px) {
     /* ANTES E DEPOIS */
-    .antes-depois > p {
-        padding: 0 0 20px;
+    .antes-depois > p { 
+        padding: 0 0 20px; /* espaçamento */
     }
 
     .antes-depois > div > img {
-        max-width: 280px;
+        max-width: 280px; /* tamanho máximo da imagem */
     }
 
     /* FORMULÁRIO */
     .img-form{
-        display: none;
+        display: none; /* esconde o elemento */
     }
 }
 
 @media (max-width: 800px) {
     .div-cuidados {
-        padding: 45px 5px 10px;
+        padding: 45px 5px 10px; /* espaçamento */
     }
 
     .img-cuidados {
-        display: none;
+        display: none; /* esconde elemento */
     }
 }
 
 @media (max-width: 550px) {
     .p-cuidados{
-        padding: 0;
+        padding: 0; /* exclui o espaçamento */
     }
 
     /* CALCULAR CEP */
     .container-cep > .div-cep {
-        width: 270px;
-        height: 100px;
+        width: 270px; /* diminui o tamanho do elemento */
+        height: 100px; /* diminui a altura do elemento*/
     }
 
     .container-cep > p {
-        font-size: 14px;
+        font-size: 14px; /* tamanho da fonte */
     }
 
     .div-cep > p {
-        font-size: 12px;
-        padding: 0;
+        font-size: 12px; /* tamanho da fonte */
+        padding: 0; /* exclui o espaçamento */
     }
 
     .calc-cep > fieldset {
-        width: 20%;
-        margin: 5px;
+        width: 20%; /* diminui o elemento */
+        margin: 5px; /* margem  */
     }
 
     .calc-cep > fieldset > input {
-        width: 140px;
+        width: 140px; /* tamanho do elemento */
     }
 
     /* RODAPÉ */
     footer {
-        display: flex;
-        flex-direction: column;
-        font-size: 12px;
+        display: flex; /* alinhamento flexivel */
+        flex-direction: column; /* elementos em coluna */
+        font-size: 12px; /* tamanho da fonte */
     }
 
     footer > img{
-        padding: 0 0 10px;
-        width: 110px;
+        padding: 0 0 10px; /* espaçamento */
+        width: 110px; /* tamanho do elemento */
     }
 }
